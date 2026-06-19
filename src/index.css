@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --color-gold-light: #E8D3B9;
+  --color-gold-accent: #C5A880;
+  --color-gold-dark: #9F825B;
+  --color-matte-black: #0A0A0A;
+  --color-luxury-charcoal: #121212;
+  --color-luxury-grey: #1A1A1A;
+  --color-beige-soft: #F5EBE6;
+  --color-cream-warm: #FDFBF7;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    background-color: var(--color-matte-black);
+    color: #FDFBF7;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Glassmorphism premium classes */
+.glass {
+  background: rgba(18, 18, 18, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(197, 168, 128, 0.15);
+}
+
+.glass-light {
+  background: rgba(253, 251, 247, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(197, 168, 128, 0.2);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F3E7D8 0%, #C5A880 50%, #9F825B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #F3E7D8 0%, #C5A880 50%, #9F825B 100%);
+}
+
+.bg-dark-gradient {
+  background: linear-gradient(180deg, #121212 0%, #0A0A0A 100%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+  border: 1px solid rgba(197, 168, 128, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A880;
+}
+
+/* Masonry grid support */
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+/* Image zoom and hover transitions */
+.gallery-zoom {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gallery-zoom:hover {
+  transform: scale(1.05);
+}
