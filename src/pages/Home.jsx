@@ -11,9 +11,30 @@ import stylistPro from '../assets/stylist_pro.png'
 import bridalHair from '../assets/bridal_hair.png'
 
 const FEATURED_SERVICES = [
-  { id: 'women-cut', name: 'Bespoke Women Cut & Blowout', desc: 'Crafting signature shapes that complement your unique style and hair type.', price: 'From $85', time: '60 mins' },
-  { id: 'color', name: 'Luxury Balayage & Highlights', desc: 'Hand-painted color dimensions that capture light and create soft, blended transitions.', price: 'From $150', time: '120 mins' },
-  { id: 'bridal', name: 'Bridal & Editorial Styling', price: 'From $120', desc: 'Premium event and wedding updo styling tailored to perfection for your special day.', time: '75 mins', image: bridalHair }
+  { 
+    id: 'women-cut', 
+    name: 'Bespoke Women Cut & Blowout', 
+    desc: 'Crafting signature shapes that complement your unique style and hair type.', 
+    price: 'From $85', 
+    time: '60 mins',
+    image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=600&auto=format&fit=crop'
+  },
+  { 
+    id: 'color', 
+    name: 'Luxury Balayage & Highlights', 
+    desc: 'Hand-painted color dimensions that capture light and create soft, blended transitions.', 
+    price: 'From $150', 
+    time: '120 mins',
+    image: hairAfter
+  },
+  { 
+    id: 'bridal', 
+    name: 'Bridal & Editorial Styling', 
+    price: 'From $120', 
+    desc: 'Premium event and wedding updo styling tailored to perfection for your special day.', 
+    time: '75 mins', 
+    image: bridalHair 
+  }
 ]
 
 const TESTIMONIALS = [
