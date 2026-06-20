@@ -38,7 +38,7 @@ const GALLERY_PHOTOS = [
   },
   {
     title: 'Wash Lounge',
-    url: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a3ef?q=80&w=500&auto=format&fit=crop',
+    url: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?q=80&w=500&auto=format&fit=crop',
     desc: 'Ergonomic massage washchairs for complete relaxation.'
   },
   {
