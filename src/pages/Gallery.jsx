@@ -47,7 +47,7 @@ const GALLERY_ITEMS = [
     id: 5,
     category: 'women',
     title: 'Volume Blowout with Layers',
-    url: 'https://images.unsplash.com/photo-1595959183075-c1d0a161b03d?q=80&w=600&auto=format&fit=crop',
+    url: 'https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?q=80&w=600&auto=format&fit=crop',
     stylist: 'Sophia Lin'
   },
   {
