@@ -61,7 +61,7 @@ const GALLERY_ITEMS = [
     id: 7,
     category: 'color',
     title: 'Platinum Blonde Melt',
-    url: 'https://images.unsplash.com/photo-1605497746444-ac9dbd39f4a5?q=80&w=600&auto=format&fit=crop',
+    url: 'https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?q=80&w=600&auto=format&fit=crop',
     stylist: 'Elena Rostova'
   },
   {

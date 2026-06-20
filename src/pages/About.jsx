@@ -33,7 +33,7 @@ const GALLERY_PHOTOS = [
   },
   {
     title: 'Refreshment Bar',
-    url: 'https://images.unsplash.com/photo-1605497746444-ac9dbd39f4a5?q=80&w=500&auto=format&fit=crop',
+    url: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=500&auto=format&fit=crop',
     desc: 'Complimentary premium espresso, champagne, and teas.'
   },
   {
