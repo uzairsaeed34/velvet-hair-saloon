@@ -51,7 +51,7 @@ export default function BeforeAfterSlider({ beforeImage, afterImage }) {
         alt="Before styling" 
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
       />
-      <div className="absolute top-4 left-4 glass px-3 py-1 rounded text-xs tracking-wider uppercase text-gold-accent font-medium">
+      <div className="absolute top-4 right-4 glass px-3 py-1 rounded text-xs tracking-wider uppercase text-gold-accent font-medium pointer-events-none">
         Before
       </div>
 
@@ -67,7 +67,7 @@ export default function BeforeAfterSlider({ beforeImage, afterImage }) {
           style={{ width: containerRef.current ? containerRef.current.getBoundingClientRect().width : '100%' }}
         />
       </div>
-      <div className="absolute top-4 right-4 glass px-3 py-1 rounded text-xs tracking-wider uppercase text-gold-accent font-medium pointer-events-none">
+      <div className="absolute top-4 left-4 glass px-3 py-1 rounded text-xs tracking-wider uppercase text-gold-accent font-medium">
         After
       </div>
 
