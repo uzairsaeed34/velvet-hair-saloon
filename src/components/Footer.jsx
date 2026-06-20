@@ -1,19 +1,6 @@
-import { useState } from 'react'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
 
 export default function Footer({ onPageChange }) {
-  const [email, setEmail] = useState('')
-  const [subscribed, setSubscribed] = useState(false)
-
-  const handleSubscribe = (e) => {
-    e.preventDefault()
-    if (email.trim() && email.includes('@')) {
-      setSubscribed(true)
-      setEmail('')
-      setTimeout(() => setSubscribed(false), 5000)
-    }
-  }
-
   const handleNavClick = (pageId) => {
     onPageChange(pageId)
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -21,7 +8,7 @@ export default function Footer({ onPageChange }) {
 
   return (
     <footer className="bg-luxury-charcoal border-t border-gold-accent/15 text-stone-300 pt-16 pb-8 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 border-b border-white/5 pb-12 mb-10">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 border-b border-white/5 pb-12 mb-10">
         
         {/* Brand Information */}
         <div className="space-y-4">
@@ -79,36 +66,6 @@ export default function Footer({ onPageChange }) {
               <span>hello@velvetbloom.ca</span>
             </li>
           </ul>
-        </div>
-
-        {/* Newsletter Subscription */}
-        <div className="space-y-4">
-          <h4 className="text-sm font-bold text-white uppercase tracking-wider">Join The Newsletter</h4>
-          <p className="text-xs text-stone-400">Subscribe to receive styling tips, seasonal trend updates, and exclusive salon offers.</p>
-          
-          <form onSubmit={handleSubscribe} className="flex flex-col gap-2">
-            <div className="relative">
-              <input
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email"
-                className="w-full bg-luxury-grey border border-white/10 rounded-xl py-2.5 pl-3 pr-10 text-xs text-white placeholder-stone-500 focus:outline-none focus:border-gold-accent/40"
-              />
-              <button
-                type="submit"
-                className="absolute right-1 top-1 bottom-1 px-3 bg-gold-accent hover:opacity-90 text-matte-black rounded-lg text-xs font-semibold transition-all cursor-pointer"
-              >
-                Join
-              </button>
-            </div>
-            {subscribed && (
-              <p className="text-[10px] text-gold-accent font-medium animate-pulse mt-1">
-                ✓ Success! Welcome to Velvet Bloom's inner circle.
-              </p>
-            )}
-          </form>
         </div>
 
       </div>
