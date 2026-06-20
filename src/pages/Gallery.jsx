@@ -20,14 +20,14 @@ const GALLERY_ITEMS = [
     category: 'women',
     title: 'Textured Lob with Soft Waves',
     url: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=600&auto=format&fit=crop',
-    stylist: 'Elena Rostova'
+    stylist: 'Olivia Bennett'
   },
   {
     id: 2,
     category: 'color',
     title: 'Dimensional Honey Balayage',
     url: colorAfter,
-    stylist: 'Elena Rostova'
+    stylist: 'Olivia Bennett'
   },
   {
     id: 3,
@@ -41,14 +41,14 @@ const GALLERY_ITEMS = [
     category: 'bridal',
     title: 'Bespoke Braided Bridal Updo',
     url: bridalHair,
-    stylist: 'Sophia Lin'
+    stylist: 'Sophia Taylor'
   },
   {
     id: 5,
     category: 'women',
     title: 'Volume Blowout with Layers',
     url: 'https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?q=80&w=600&auto=format&fit=crop',
-    stylist: 'Sophia Lin'
+    stylist: 'Sophia Taylor'
   },
   {
     id: 6,
@@ -62,14 +62,14 @@ const GALLERY_ITEMS = [
     category: 'color',
     title: 'Platinum Blonde Melt',
     url: 'https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?q=80&w=600&auto=format&fit=crop',
-    stylist: 'Elena Rostova'
+    stylist: 'Olivia Bennett'
   },
   {
     id: 8,
     category: 'bridal',
     title: 'Romantic Half-Up Waves',
     url: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=600&auto=format&fit=crop',
-    stylist: 'Sophia Lin'
+    stylist: 'Sophia Taylor'
   }
 ]
 

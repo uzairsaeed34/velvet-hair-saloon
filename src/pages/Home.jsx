@@ -178,10 +178,10 @@ export default function Home({ onPageChange, onBookClick, onBookService }) {
             <Heart size={12} /> The Craftsmanship
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-            Meet Elena Rostova, Lead Artist & Founder
+            Meet Olivia Bennett, Lead Artist & Founder
           </h2>
           <p className="text-stone-400 text-sm leading-relaxed">
-            With over 12 years of luxury hairdressing expertise across Paris, Toronto, and Edmonton, Elena founded Velvet Bloom to build a studio focused on quality, integrity, and individualized client care. 
+            With over 12 years of luxury hairdressing expertise across Paris, Toronto, and Edmonton, Olivia founded Velvet Bloom to build a studio focused on quality, integrity, and individualized client care. 
           </p>
           <p className="text-stone-400 text-sm leading-relaxed">
             "We believe that hair is the ultimate form of self-expression. Our passion lies in crafting custom tones and precision shapes that elevate your confidence and emphasize your natural radiance."
@@ -203,10 +203,10 @@ export default function Home({ onPageChange, onBookClick, onBookService }) {
         >
           <div className="absolute inset-0 bg-gold-accent/10 rounded-2xl blur-xl" />
           <div className="relative rounded-2xl overflow-hidden border border-gold-accent/20 shadow-2xl">
-            <img src={stylistPro} alt="Elena Rostova" className="w-full h-[450px] object-cover" />
+            <img src={stylistPro} alt="Olivia Bennett" className="w-full h-[450px] object-cover" />
             <div className="absolute bottom-0 inset-x-0 glass p-5 flex justify-between items-center border-t border-gold-accent/10">
               <div>
-                <p className="font-bold text-white text-base">Elena Rostova</p>
+                <p className="font-bold text-white text-base">Olivia Bennett</p>
                 <p className="text-xs text-gold-accent">Founder & Master Colorist</p>
               </div>
               <span className="text-[10px] uppercase font-bold tracking-widest text-stone-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full">

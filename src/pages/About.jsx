@@ -6,7 +6,7 @@ import ElenaImg from '../assets/stylist_pro.png'
 
 const TEAM = [
   {
-    name: 'Elena Marquez',
+    name: 'Olivia Bennett',
     role: 'Founder & Master Colorist',
     bio: 'Specializes in balayage, custom blondes, and hair color correction. 12+ years experience trained in Paris and Toronto.',
     image: ElenaImg
@@ -18,7 +18,7 @@ const TEAM = [
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop'
   },
   {
-    name: 'Sophia Lin',
+    name: 'Sophia Taylor',
     role: 'Senior Stylist & Bridal Specialist',
     bio: 'Bespoke bridal updos, event styling, tape-in extensions, and textured haircutting.',
     image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=400&auto=format&fit=crop'
