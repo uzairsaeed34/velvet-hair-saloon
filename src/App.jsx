@@ -107,7 +107,7 @@ export default function App() {
           title="Book Appointment"
         >
           <Calendar size={18} />
-          <span className="text-xs uppercase tracking-wider hidden sm:inline">Book Appt</span>
+          <span className="text-xs uppercase tracking-wider hidden sm:inline">Book Appointment</span>
         </button>
       </div>
 
